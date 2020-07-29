@@ -7,4 +7,5 @@ function upDate(previewPic){
 function unDo(){
     const divimg = document.getElementById("image")
     divimg.style.backgroundImage = "url('')"
+    divimg.innerHTML = "Hover over image below to display here."
 }
